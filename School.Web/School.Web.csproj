@@ -221,6 +221,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Adapters\DataAdapters\" />
+    <Folder Include="Adapters\Interfaces\" />
+    <Folder Include="Adapters\MockAdapters\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
