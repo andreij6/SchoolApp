@@ -7,6 +7,8 @@ using Microsoft.Owin.Security.DataProtection;
 using Owin;
 using System;
 using School.Web.Models;
+using School.Data;
+using School.DataModels;
 
 namespace School.Web
 {

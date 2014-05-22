@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
 using School.Web.Models;
+using School.DataModels;
 
 namespace School.Web.Controllers
 {

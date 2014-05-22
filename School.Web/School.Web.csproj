@@ -165,7 +165,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -230,6 +229,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\School.DataModels\School.DataModels.csproj">
+      <Project>{c2e876fd-5e10-4599-b295-e0b784fa89fa}</Project>
+      <Name>School.DataModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\School.Data\School.Data.csproj">
+      <Project>{07d28e5b-8e2b-47aa-9a67-bd54fd03d076}</Project>
+      <Name>School.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

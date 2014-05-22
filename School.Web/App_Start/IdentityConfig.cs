@@ -4,6 +4,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using School.Web.Models;
+using School.DataModels;
+using School.Data;
 
 namespace School.Web
 {
